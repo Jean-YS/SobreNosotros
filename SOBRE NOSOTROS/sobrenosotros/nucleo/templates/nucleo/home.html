@@ -1,0 +1,32 @@
+{% extends 'nucleo/base.html' %}
+{%  block content %}
+    <div><strong><center>SOBRE NOSOTROS</center></strong> </div>
+    <p></p>
+    <div class ="row">
+        <div class="col-md-4">
+            <p><strong>{{Nucleo.nombre}}</strong></p>
+            <p>{{Nucleo.descripcion}}</p>
+        </div>
+        <div class="col-md-8">
+            <p>VA LA IMAGEN</p>
+        </div>
+    </div>
+    <div class ="row">
+        <div class="col-md-3">
+            <p><strong>MISION</strong></p>
+            <p>{{Nucleo.mision}}</p>
+        </div>
+        <div class="col-md-3">
+            <p><strong>VISION</strong></p>
+            <p>{{Nucleo.vision}}</p>
+        </div>
+        <div class="col-md-3">
+            <p><strong>OBJETIVOS</strong></p>
+            <p>{{Nucleo.objetivos}}</p>
+        </div>
+
+
+
+    </div>
+
+{% endblock %}
